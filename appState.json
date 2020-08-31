@@ -32,15 +32,15 @@
     ],
     "currentFileId": "4a2d263a-f32a-4a68-86d9-0dd08a807a7e",
     "resources": {
-      "ddbBTMenu": {
-        "name": "ddbBTMenu",
+      "ddbhirutestddb": {
+        "name": "ddbhirutestddb",
         "type": "DynamoDB",
         "config": {
           "mode": 1,
           "table": {
-            "arn": "arn:aws:dynamodb:us-east-1:318300609668:table/BTMenu",
-            "name": "BTMenu",
-            "partitionKey": "itemCode",
+            "arn": "arn:aws:dynamodb:us-east-1:318300609668:table/hirutestddb",
+            "name": "hirutestddb",
+            "partitionKey": "Name",
             "partitionKeyType": "S",
             "hasSortKey": false,
             "sortKey": "",
@@ -48,10 +48,10 @@
             "payPerRequest": true,
             "mode": 1,
             "secondaryIndexes": {
-              "itemCode-colombo-index": {
-                "name": "itemCode-colombo-index",
+              "Name-colombo-index": {
+                "name": "Name-colombo-index",
                 "type": "GSI",
-                "partitionKey": "itemCode",
+                "partitionKey": "Name",
                 "partitionKeyType": "S",
                 "hasSortKey": true,
                 "sortKey": "colombo",
