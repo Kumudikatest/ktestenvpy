@@ -1,0 +1,111 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "4a2d263a-f32a-4a68-86d9-0dd08a807a7e": {
+        "id": "4a2d263a-f32a-4a68-86d9-0dd08a807a7e",
+        "parent": null,
+        "name": "ktestenvpy.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "ktestenvpy.py",
+        "cursor": {
+          "lineNumber": 11,
+          "column": 17
+        },
+        "config": {
+          "runtime": "python3.8",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "ktestenvpy"
+        },
+        "triggers": [],
+        "lastUpdated": 1598862702280,
+        "testCases": {}
+      }
+    },
+    "openFiles": [
+      "4a2d263a-f32a-4a68-86d9-0dd08a807a7e"
+    ],
+    "currentFileId": "4a2d263a-f32a-4a68-86d9-0dd08a807a7e",
+    "resources": {
+      "ddbBTMenu": {
+        "name": "ddbBTMenu",
+        "type": "DynamoDB",
+        "config": {
+          "mode": 1,
+          "table": {
+            "arn": "arn:aws:dynamodb:us-east-1:318300609668:table/BTMenu",
+            "name": "BTMenu",
+            "partitionKey": "itemCode",
+            "partitionKeyType": "S",
+            "hasSortKey": false,
+            "sortKey": "",
+            "sortKeyType": "",
+            "payPerRequest": true,
+            "mode": 1,
+            "secondaryIndexes": {
+              "itemCode-colombo-index": {
+                "name": "itemCode-colombo-index",
+                "type": "GSI",
+                "partitionKey": "itemCode",
+                "partitionKeyType": "S",
+                "hasSortKey": true,
+                "sortKey": "colombo",
+                "sortKeyType": "S"
+              }
+            }
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "boto3": {
+          "name": "boto3",
+          "language": "python",
+          "version": "1.12.27",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.2",
+    "projectName": "ktestenvpy",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1598862763451
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "ktestenvpy",
+      "url": "https://github.com/Kumudikatest/ktestenvpy"
+    }
+  }
+}
