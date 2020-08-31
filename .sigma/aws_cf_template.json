@@ -92,7 +92,7 @@
                   "Action": [
                     "dynamodb:Scan"
                   ],
-                  "Resource": "arn:aws:dynamodb:us-east-1:318300609668:table/BTMenu"
+                  "Resource": "arn:aws:dynamodb:us-east-1:318300609668:table/hirutestddb"
                 }
               ]
             }
