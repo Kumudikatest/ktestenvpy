@@ -4,7 +4,7 @@ ddb = boto3.client("dynamodb")
 def handler(event, context):
     try:
         data = ddb.scan(
-            TableName="BTMenu"
+            TableName="hirutestddb"
         )
         print(data)
     except BaseException as e:
